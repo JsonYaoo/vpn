@@ -137,15 +137,28 @@ iPhone要下载的app需要在appstore下载，但是需要用美区账号才能
 使用 IPsec/L2TP 脚本搭建<br>
 安装 wget ：<br>
 yum install wget<br>
-使用脚本：<br>
-wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh<br>
+使用脚本：<br><br>
+wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh<br><br>
 稍等一会安装成功会提供一个 VPN 需要的信息：<br>
 Server IP: xxx.xx.xx.xx<br>
 IPsec PSK: xxxx<br>
 Username: xxxx<br>
 Password: xxxx<br>
 这时候就搭建成功了，快吧？<br>
-接着就可以上外网了：<br>
+接着就可以上外网了：<br><br>
+
+## iPhone/iPad 使用IPsec/L2TP VPN<br><br>
+<code>进入设置 -> 通用 -> VPN。
+单击 添加VPN配置...。
+单击 类型 。选择 L2TP 并返回。
+在 描述 字段中输入任意内容。
+在 服务器 字段中输入你的 VPN 服务器 IP。
+在 帐户 字段中输入你的 VPN 用户名。
+在 密码 字段中输入你的 VPN 密码。
+在 密钥 字段中输入你的 VPN IPsec PSK。
+启用 发送所有流量 选项。
+单击右上角的 存储。
+启用 VPN 连接。</code><br><br>
 
 ![google](https://wistbean.github.io/images/pic8.png)
 
