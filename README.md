@@ -147,18 +147,20 @@ Password: xxxx<br>
 这时候就搭建成功了，快吧？<br>
 接着就可以上外网了：<br><br>
 
-## iPhone/iPad 使用IPsec/L2TP VPN<br><br>
-<code>进入设置 -> 通用 -> VPN。
-单击 添加VPN配置...。
-单击 类型 。选择 L2TP 并返回。
-在 描述 字段中输入任意内容。
-在 服务器 字段中输入你的 VPN 服务器 IP。
-在 帐户 字段中输入你的 VPN 用户名。
-在 密码 字段中输入你的 VPN 密码。
-在 密钥 字段中输入你的 VPN IPsec PSK。
-启用 发送所有流量 选项。
-单击右上角的 存储。
-启用 VPN 连接。</code><br><br>
+### iPhone/iPad 使用IPsec/L2TP VPN
+     进入设置 -> 通用 -> VPN
+     单击 添加VPN配置...。
+     单击 类型 。选择 L2TP 并返回。
+     在 描述 字段中输入任意内容。
+     在 服务器 字段中输入你的 VPN 服务器 IP。
+     在 帐户 字段中输入你的 VPN 用户名。
+     在 密码 字段中输入你的 VPN 密码。
+     在 密钥 字段中输入你的 VPN IPsec PSK。
+     启用 发送所有流量 选项。
+     单击右上角的 存储。
+     启用 VPN 连接。
+     um install wget
+
 
 ![google](https://wistbean.github.io/images/pic8.png)
 
