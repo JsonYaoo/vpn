@@ -133,19 +133,19 @@ Android点击下载：[Shadowsocks Android客户端](https://pan.baidu.com/s/1co
 
 ## iPhone使用Shadowsocks
 
-iPhone要下载的app需要在appstore下载，但是需要用美区账号才能下载，而且这个APP需要钱。在这里提供一种解决方案，就是可以再搭建一个[IPsec/L2TP VPN](https://wistbean.github.io/ipsec,l2tp_vpn.html#%E4%BD%BF%E7%94%A8-IPsec-L2TP-%E8%84%9A%E6%9C%AC%E6%90%AD%E5%BB%BA),专门给你的iPhone使用。
-使用 IPsec/L2TP 脚本搭建
-安装 wget ：
-yum install wget
-使用脚本：
-wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh
-稍等一会安装成功会提供一个 VPN 需要的信息：
-Server IP: xxx.xx.xx.xx
-IPsec PSK: xxxx
-Username: xxxx
-Password: xxxx
-这时候就搭建成功了，快吧？
-接着就可以上外网了：
+iPhone要下载的app需要在appstore下载，但是需要用美区账号才能下载，而且这个APP需要钱。在这里提供一种解决方案，就是可以再搭建一个[IPsec/L2TP VPN](https://wistbean.github.io/ipsec,l2tp_vpn.html#%E4%BD%BF%E7%94%A8-IPsec-L2TP-%E8%84%9A%E6%9C%AC%E6%90%AD%E5%BB%BA),专门给你的iPhone使用。<br>
+使用 IPsec/L2TP 脚本搭建<br>
+安装 wget ：<br>
+yum install wget<br>
+使用脚本：<br>
+wget https://git.io/vpnsetup-centos -O vpnsetup.sh && sudo sh vpnsetup.sh<br>
+稍等一会安装成功会提供一个 VPN 需要的信息：<br>
+Server IP: xxx.xx.xx.xx<br>
+IPsec PSK: xxxx<br>
+Username: xxxx<br>
+Password: xxxx<br>
+这时候就搭建成功了，快吧？<br>
+接着就可以上外网了：<br>
 
 ![google](https://wistbean.github.io/images/pic8.png)
 
