@@ -159,7 +159,7 @@ Password: xxxx<br>
      启用 发送所有流量 选项。
      单击右上角的 存储。
      启用 VPN 连接。
-     um install wget
+     
 
 
 ![google](https://wistbean.github.io/images/pic8.png)
